@@ -11,40 +11,32 @@
             -webkit-filter: drop-shadow(5px 5px 5px #4682B4);
             filter: drop-shadow(5px 5px 5px #4682B4);
         }
-
-        body {
-            
+	body {  
 	    background-color: lightpink;
         }
-
         .container {
             text-align: center;
             color: palevioletred;
             text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
         }
-
         .centered {
             position: absolute;
             top: 63%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
-
         #demo {
             position: absolute;
-            top: 10%;
+            top: 20%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: "Sofia", sans-serif;
             font-size: 55px;
             color: palevioletred;
-        }
-
-                   
+        }              
         .zoom-text {
             transition: transform 0.3s ease;
         }
-
         .zoom-text:hover {
             transform: scale(1.2);
         }
