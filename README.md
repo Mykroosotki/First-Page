@@ -27,7 +27,7 @@
         }
         #demo {
             position: absolute;
-            top: 10%;
+            top: 8%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: "Sofia", sans-serif;
